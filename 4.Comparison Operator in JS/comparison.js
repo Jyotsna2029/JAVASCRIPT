@@ -1,5 +1,3 @@
-
-
 let a1 = 1;
 let a2 = 2;
 // comparison operator
@@ -15,3 +13,5 @@ let str = "10";
 console.log("num==str");
 console.log(num == str);
 
+console.log(null== undefined); //true
+console.log(null=== undefined); //false
