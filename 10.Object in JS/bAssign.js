@@ -1,0 +1,12 @@
+let obj1 = {a:1,b:2};
+let obj2 = {c:3,d:4};
+
+// to make obj including obj1 and obj2
+let target = {};
+const obj3 = Object.assign(target,obj1, obj2);
+console.log(obj3);
+const obj4 = Object.assign({},obj1, obj2);
+console.log(obj4);
+
+const obj5 = {...obj1, ...obj2};
+console.log(obj5);
